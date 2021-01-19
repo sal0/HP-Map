@@ -1,0 +1,33 @@
+header{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+}
+.wrapper{
+    width: 90%;
+}
+img.logo {
+    width: 150px;
+}
+img.map-img{
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    
+ 
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
