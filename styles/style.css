@@ -9,15 +9,31 @@ header{
     height: 80px;
     padding: 30px;
 }
+body{
+    
+
+    background-image:url(/pattern.png);
+    background: #67853f;
+    
+}
 .wrapper{
-    width: 90%;
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 img.logo {
-    width: 150px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 img.map-img{
     width: 100vw;
     height: 100vh;
+    object-fit: contain;
 }
 ul{
     display: flex;
